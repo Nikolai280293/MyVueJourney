@@ -1,18 +1,17 @@
 <template>
-  <ToDoList />
+  <div>
+    <nav>
+      <router-link to="/todolist">Список задач</router-link>
+      <router-link to="/calculator">Калькулятор</router-link>
+    </nav>
+    <router-view></router-view>
+  </div>
 </template>
 
 <script>
-import ToDoList from './components/ToDoList.vue';
-
 export default {
   name: 'App',
-  components: {
-    ToDoList,
-  }
 }
 </script>
 
-<style>
-
-</style>
+<style></style>
