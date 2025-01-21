@@ -3,6 +3,7 @@
     <nav>
       <router-link to="/todolist">Список задач</router-link>
       <router-link to="/calculator">Калькулятор</router-link>
+      <router-link to="/currency">Курсы валют</router-link>
     </nav>
     <router-view></router-view>
   </div>
